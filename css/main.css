@@ -12,7 +12,7 @@ html {
 
 }
 
-  *, *::before, *::after {
+*, *::before, *::after {
   box-sizing: inherit;
 }
 
@@ -31,6 +31,7 @@ img {
 }
 
 @media only screen and (min-width: 38em) {
+
   html {
     font-size: 110%;
     line-height: 1.4;
@@ -38,6 +39,7 @@ img {
 }
 
 @media only screen and (min-width: 60em) {
+
   html {
     font-size: 120%;
     line-height: 1.5;
@@ -45,6 +47,7 @@ img {
 }
 
 @media only screen and (min-width: 60em) {
+
   header {
     padding-left: 1rem;
     padding-right: 1rem;
